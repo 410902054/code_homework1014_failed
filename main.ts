@@ -1,22 +1,22 @@
-let x = 4
-let y = 4
+let X = 4
+let Y = 4
 for (let index = 0; index < 3; index++) {
     if ("Y" >= "4") {
         for (let index = 0; index < 5; index++) {
-            led.plot(x, y)
+            led.plot(X, Y)
             basic.pause(100)
-            y = y - 1
+            Y = Y - 1
         }
         if ("Y" >= "0") {
-            x = x - 1
+            X = X - 1
             for (let index = 0; index < 5; index++) {
-                led.plot(x, y)
+                led.plot(X, Y)
                 basic.pause(100)
-                y = y - 1
-                led.plot(x, y)
+                Y = Y - 1
+                led.plot(X, Y)
                 basic.pause(100)
             }
         }
     }
-    x = x - 1
+    X = X - 1
 }
